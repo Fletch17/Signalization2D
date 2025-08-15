@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AlarmController))]
 public class TriggerController : MonoBehaviour
 {
     [SerializeField] private AlarmController _alarmController;

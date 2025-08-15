@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(TriggerController))]
 public class AlarmController : MonoBehaviour
 {
     [SerializeField] private AudioSource _audioSource;
